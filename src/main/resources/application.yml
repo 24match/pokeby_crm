@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: crm
+  datasource:
+    hikari:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: xxx
+      jdbc-url: jdbc:mysql://xxxx:3306/crm?serverTimezone=UTC
